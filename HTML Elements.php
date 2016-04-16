@@ -26,164 +26,166 @@
 					include 'Show_Data_Nav.php';
 				?>
             </div>
-            <div id="tutorias">
-                <label style="cursor:pointer;" for="click1" onclick="checked1()">Tutorials</label>
-                <input id="click1" type="checkbox" style="display:none;" />
-                <div id="content_of_tutorials">
-                	<p class="close" onclick="closeit()">X</p>
-                    <div class="choices">
-                        <ul>
-                            <li><span>HTML/CSS</span></li>
-                            <li><a href="#">Learn HTML</a></li>
-                            <li><a href="#">Learn CSS</a></li>
-                            <li><a href="#">Learn W3.CSS</a></li>
-                            <li><a href="#">Learn Colors</a></li>
-                            <li><a href="#">Learn Bootstrap</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>JAVASCRIPT</span></li>
-                            <li><a href="#">Learn JavaScript</a></li>
-                            <li><a href="#">Learn jQuery</a></li>
-                            <li><a href="#">Learn jQuery Mobile</a></li>
-                            <li><a href="#">Learn APP ML</a></li>
-                            <li><a href="#">Learn Angular JS</a></li>
-                            <li><a href="#">Learn AJAX</a></li>
-                            <li><a href="#">Learn JSON</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>HTML GRAPHICS</span></li>
-                            <li><a href="#">Learn CANVAS</a></li>
-                            <li><a href="#">Learn SVG</a></li>
-                            <li><a href="#">Learn Icons</a></li>
-                            <li><a href="#">Learn Google Maps</a></li>
-                            <li><a href="#">Learn HTML Game</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>SEVER SIDE</span></li>
-                            <li><a href="#">PHP</a></li>
-                            <li><a href="#">SQL</a></li>
-                            <li><a href="#">ASP</a></li>
-                            <li><a href="#">ASP.NET</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>WEB BUILDING</span></li>
-                            <li><a href="#">Web Building</a></li>
-                            <li><a href="#">WEB Statitics</a></li>
-                            <li><a href="#">WEB Certificates</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>XML TUTORIALS</span></li>
-                            <li><a href="#">LEARN XML</a></li>
-                            <li><a href="#">LEARN XSLT</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="references">
-                <label style="cursor:pointer;" for="click2" onclick="checked2()">References</label>
-                <input id="click2" type="checkbox" style="display:none" />
-                <div id="content_of_references">
-                	<p class="close" onclick="closeit()">X</p>
-                    <div class="choices">
-                        <ul>
-                            <li><span>HTML</span></li>
-                            <li><a href="#">HTML Tag Reference</a></li>
-                            <li><a href="#">HTML Event Reference</a></li>
-                            <li><a href="#">HTML Color Reference</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>CSS</span></li>
-                            <li><a href="#">CSS Reference</a></li>
-                            <li><a href="#">CSS Selector Reference</a></li>
-                            <li><a href="#">W3.CSS Reference</a></li>
-                            <li><a href="#">Bootstrap Reference</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>JavaScript</span></li>
-                            <li><a href="#">JavaScript Reference</a></li>
-                            <li><a href="#">HTML DOM Reference</a></li>
-                            <li><a href="#">jQuery Reference</a></li>
-                            <li><a href="#">jQuery MOBILE Reference</a></li>
-                            <li><a href="#">Angular JS Reference</a></li>
-                            <li><a href="#">Google Maps Reference</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>Sever Side</span></li>
-                            <li><a href="#">PHP Reference</a></li>
-                            <li><a href="#">SQL Reference</a></li>
-                            <li><a href="#">ASP Reference</a></li>
-                            <li><a href="#">RAZOR Reference</a></li>
-                            <li><a href="#">ASP.NET Reference</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>XML</span></li>
-                            <li><a href="#">XML Reference</a></li>
-                            <li><a href="#">XSLT Reference</a></li>
-                            <li><a href="#">XML Schema Reference</a></li>
-                            <li><a href="#">SVG Reference</a></li>
-                        </ul>
-                    </div>
-                    <div class="choices">
-                        <ul>
-                            <li><span>Charset</span></li>
-                            <li><a href="#">HTML Character SET</a></li>
-                            <li><a href="#">HTML ASCII</a></li>
-                            <li><a href="#">HTML ANSI</a></li>
-                            <li><a href="#">HTML WINDOW-1252</a></li>
-                            <li><a href="#">HTML ISO-8859-1</a></li>
-                            <li><a href="#">HTML SYMBOLS</a></li>
-                            <li><a href="#">HTML UTF-8</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div id="nav2">
-                <label id="nav2-translate" style="cursor:pointer;" for="click3" onclick="checked3()">
-                	<img src="Untitled2.png" style="margin-bottom: -7px; margin-top: -2px;" />
-                </label>
-                <input type="checkbox" id="click3" style="display:none;" />
-                <div id="translate">
-                	<p class="close" onclick="closeit()">X</p>
-                	<p style="margin-top:50px; font-size: 17px; font-family: Segoe UI,Arial,sans-serif;">Translate w3schools.com :</p>
-                	<form action="#">
-                    	<select name="translate" style="margin-top:-12px; width:10%; height:23px;">
-                        	<option value="English">English</option>
-                            <option value="Japanses">Japanese</option>
-                            <option value="Vietnamese">Vietnamese</option>
-                        </select>
-                    </form>
-               	</div>
-                <label id="nav2-search" style="cursor:pointer;" for="click4" onclick="checked4()">
-                	<img src="Untitled3.png" style="margin-bottom: -7px; margin-top: -2px; margin-right: 10px;" />
-               	</label>
-                <input type="checkbox" id="click4" style="display:none;"/>
-                <div id="search">
-                	<p class="close" onclick="closeit()">X</p>
-                	<p style="margin-left:-240px; margin-top:50px; margin-bottom:0px; font-size: 17px; font-family: Segoe UI,Arial,sans-serif;">Search w3schools.com :</p>
-                	<form action="#" method="post">
-                    	<input name="search" type="text" placeholder="Google'' Custom Search" style="width:330px; height:20px; margin-top:5px;" />
-                        <input name="submit2" type="submit" value="" style="width:78px;; height:28px; border:none; border-radius:3px; background-image:url(Untitled4.png); cursor: pointer; padding-bottom: 10px; margin-left: 10px; " />
-                    </form>
-               	</div>
-            </div>
+                <div id="tutorias">
+                        <label style="cursor:pointer;" for="click1" onclick="checked1()">Tutorials</label>
+                        <input id="click1" type="checkbox" style="display:none;" />
+                    <div id="content_of_tutorials">
+                        <p class="close" onclick="closeit()">X</p>
+                        <div class="choices">
+                            <ul>
+                                <li><span>HTML/CSS</span></li>
+                                <li><a href="#">Learn HTML</a></li>
+                                <li><a href="#">Learn CSS</a></li>
+                                <li><a href="#">Learn W3.CSS</a></li>
+                                <li><a href="#">Learn Colors</a></li>
+                                <li><a href="#">Learn Bootstrap</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>JAVASCRIPT</span></li>
+                                <li><a href="#">Learn JavaScript</a></li>
+                                <li><a href="#">Learn jQuery</a></li>
+                                <li><a href="#">Learn jQuery Mobile</a></li>
+                                <li><a href="#">Learn APP ML</a></li>
+                                <li><a href="#">Learn Angular JS</a></li>
+                                <li><a href="#">Learn AJAX</a></li>
+                                <li><a href="#">Learn JSON</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>HTML GRAPHICS</span></li>
+                                <li><a href="#">Learn CANVAS</a></li>
+                                <li><a href="#">Learn SVG</a></li>
+                                <li><a href="#">Learn Icons</a></li>
+                                <li><a href="#">Learn Google Maps</a></li>
+                                <li><a href="#">Learn HTML Game</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>SEVER SIDE</span></li>
+                                <li><a href="#">PHP</a></li>
+                                <li><a href="#">SQL</a></li>
+                                <li><a href="#">ASP</a></li>
+                                <li><a href="#">ASP.NET</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>WEB BUILDING</span></li>
+                                <li><a href="#">Web Building</a></li>
+                                <li><a href="#">WEB Statitics</a></li>
+                                <li><a href="#">WEB Certificates</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>XML TUTORIALS</span></li>
+                                <li><a href="#">LEARN XML</a></li>
+                                <li><a href="#">LEARN XSLT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="references">
+                    <label style="cursor:pointer;" for="click2" onclick="checked2()">References</label>
+                    <input id="click2" type="checkbox" style="display:none" />
+                    <div id="content_of_references">
+                        <p class="close" onclick="closeit()">X</p>
+                        <div class="choices">
+                            <ul>
+                                <li><span>HTML</span></li>
+                                <li><a href="#">HTML Tag Reference</a></li>
+                                <li><a href="#">HTML Event Reference</a></li>
+                                <li><a href="#">HTML Color Reference</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>CSS</span></li>
+                                <li><a href="#">CSS Reference</a></li>
+                                <li><a href="#">CSS Selector Reference</a></li>
+                                <li><a href="#">W3.CSS Reference</a></li>
+                                <li><a href="#">Bootstrap Reference</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>JavaScript</span></li>
+                                <li><a href="#">JavaScript Reference</a></li>
+                                <li><a href="#">HTML DOM Reference</a></li>
+                                <li><a href="#">jQuery Reference</a></li>
+                                <li><a href="#">jQuery MOBILE Reference</a></li>
+                                <li><a href="#">Angular JS Reference</a></li>
+                                <li><a href="#">Google Maps Reference</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>Sever Side</span></li>
+                                <li><a href="#">PHP Reference</a></li>
+                                <li><a href="#">SQL Reference</a></li>
+                                <li><a href="#">ASP Reference</a></li>
+                                <li><a href="#">RAZOR Reference</a></li>
+                                <li><a href="#">ASP.NET Reference</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>XML</span></li>
+                                <li><a href="#">XML Reference</a></li>
+                                <li><a href="#">XSLT Reference</a></li>
+                                <li><a href="#">XML Schema Reference</a></li>
+                                <li><a href="#">SVG Reference</a></li>
+                            </ul>
+                        </div>
+                        <div class="choices">
+                            <ul>
+                                <li><span>Charset</span></li>
+                                <li><a href="#">HTML Character SET</a></li>
+                                <li><a href="#">HTML ASCII</a></li>
+                                <li><a href="#">HTML ANSI</a></li>
+                                <li><a href="#">HTML WINDOW-1252</a></li>
+                                <li><a href="#">HTML ISO-8859-1</a></li>
+                                <li><a href="#">HTML SYMBOLS</a></li>
+                                <li><a href="#">HTML UTF-8</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="trans-search">
+                    <label id="nav2-translate" style="cursor:pointer;" for="click3" onclick="checked3()">
+                        <img src="Untitled2.png" style="margin-bottom: -7px; margin-top: -2px;" />
+                    </label>
+                    <input type="checkbox" id="click3" style="display:none;" />
+                    <div id="translate">
+                        <p class="close" onclick="closeit()">X</p>
+                        <p style="margin-top:50px; font-size: 17px; font-family: Segoe UI,Arial,sans-serif;">Translate w3schools.com :</p>
+                        <form action="#">
+                            <select name="translate" style="margin-top:-12px; width:10%; height:23px;">
+                                <option value="English">English</option>
+                                <option value="Japanses">Japanese</option>
+                                <option value="Vietnamese">Vietnamese</option>
+                            </select>
+                        </form>
+                    </div>
+                    <label id="nav2-search" style="cursor:pointer;" for="click4" onclick="checked4()">
+                        <img src="Untitled3.png" style="margin-bottom: -7px; margin-top: -2px; margin-right: 10px;" />
+                    </label>
+                    <input type="checkbox" id="click4" style="display:none;"/>
+                    <div id="search">
+                        <p class="close" onclick="closeit()">X</p>
+                        <p style="margin-left:-240px; margin-top:50px; margin-bottom:0px; font-size: 17px; font-family: Segoe UI,Arial,sans-serif;">Search w3schools.com :</p>
+                        <form action="#" method="post">
+                            <input name="search" type="text" placeholder="Google'' Custom Search" style="width:330px; height:20px; margin-top:5px;" />
+                            <input name="submit2" type="submit" value="" style="width:78px;; height:28px; border:none; border-radius:3px; background-image:url(Untitled4.png); cursor: pointer; padding-bottom: 10px; margin-left: 10px; " />
+                        </form>
+                    </div>
+                </div>
+           	</div>
         </div>
         <div id="menu">
             <ul>
