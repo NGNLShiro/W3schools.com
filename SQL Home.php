@@ -189,7 +189,10 @@
         </div>
         <div id="menu">
             <ul>
-                <?php include 'Show_Data.php'; ?>
+                <?php 
+					$x=5;
+					include 'Show_Data.php'; 
+				?>
             </ul>
         </div>
         <div id="content">

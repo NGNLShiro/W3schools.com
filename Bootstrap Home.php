@@ -26,10 +26,7 @@
 					include 'Show_Data_Nav.php';
 				?>
             </div>
-            <div id="tutorias">
-                    <label style="cursor:pointer;" for="click1" onclick="checked1()">Tutorials</label>
-                    <input id="click1" type="checkbox" style="display:none;" />
-                <div id="nav2">
+            <div id="nav2">
                 <div id="tutorias">
                         <label style="cursor:pointer;" for="click1" onclick="checked1()">Tutorials</label>
                         <input id="click1" type="checkbox" style="display:none;" />
@@ -192,7 +189,10 @@
         </div>
         <div id="menu">
             <ul>
-                <?php include 'Show_Data.php'; ?>
+                <?php
+					$x=6; 
+					include 'Show_Data.php'; 
+				?>
             </ul>
         </div>
         <div id="content">

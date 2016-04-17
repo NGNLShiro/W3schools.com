@@ -58,6 +58,8 @@
             position: fixed;
             top: 0;
             margin-top: 0 !important;
+			right: 0px;
+  			left: 0px;
         }
 
             .active + #menu {
@@ -215,14 +217,14 @@
                 list-style-type: none;
                 background-color: rgb(241, 241, 241);
                 padding-left: 0px;
-				width: 220px;
+				width: 210px;
             }
 
             #menu li {
                 font-family: "Segoe UI",Arial,sans-serif;
 				font-size: 15px;
 				padding-left: 15px;
-  				padding-right: 70px;
+  				padding-right: 0px;
 				padding-bottom: 5px;
 				padding-top: 5px;
             }
@@ -230,7 +232,7 @@
             #menu a {
                 text-decoration: none;
                 color: #000000;
-                
+                padding-right: 40px;
             }
 
             #menu li:hover {
@@ -242,7 +244,7 @@
             }
 
         #content {
-            padding-left: 255px;
+            padding-left: 290px;
             padding-top: 100px;
             width: 65%;
             font-family: Verdana,sans-serif;

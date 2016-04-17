@@ -190,7 +190,11 @@
         </div>
         <div id="menu">
             <ul>
-                <?php include 'Show_Data.php'; ?>
+                <?php 
+					$x=2;
+					include 'Show_Data.php'; 
+					
+				?>
             </ul>
         </div>
         <div id="content">
@@ -360,6 +364,7 @@
 		document.getElementById("click2").checked = false;
 		document.getElementById("click3").checked = false;
 		document.getElementById("click4").checked = false;
+		console.log (closeit);
 	}
     
     
