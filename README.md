@@ -8,4 +8,4 @@
 4. Learn PHP
 5. Learn SQL
 
-[This is a link go to my web. Thanks for reading !!!](http://w3schools.esy.es/w3schools.com/HTML%20Home.php "title" target="_blank")
+[This is a link go to my web. Thanks for reading !!!](http://w3schools.esy.es "title" target="_blank")
