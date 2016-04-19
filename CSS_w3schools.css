@@ -159,6 +159,7 @@
 
         input:checked + #content_of_tutorials {
             display: block;
+			position:fixed;
         }
 
         span {
@@ -184,6 +185,7 @@
 
         input:checked + #content_of_references {
             display: block;
+			position:fixed;
         }
 
         #content_of_references a {
@@ -359,6 +361,7 @@
 		}
 		input:checked + #translate{
 			display:block;
+			position:fixed;
 		}
 		#translate{
 			display:none;
@@ -374,6 +377,7 @@
 		}
 		input:checked + #search{
 			display:block;
+			position:fixed;
 		}
 		#search{
 			display:none;

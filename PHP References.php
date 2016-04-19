@@ -3,7 +3,7 @@
 <html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>BOOTSTRAP</title>
+    <title>PHP References</title>
     <link rel="stylesheet" type="text/css" href="CSS_w3schools.css" />
 </head>
 
@@ -189,109 +189,107 @@
         </div>
         <div id="menu">
             <ul>
-                <?php
-					$x=6; 
+                <?php 
+					$x=4;
 					include 'Show_Data.php'; 
 				?>
             </ul>
         </div>
         <div id="content">
             <div id="part1">
-                <h1 style="font-size: 35px;">Bootstrap 3 Tutorial</h1>
+                <h1 style="font-size: 35px;">PHP References</h1>
                 <div class="pre_next">
                     <?php 
-						$i=21;
+						$i=16;
 						include 'Previous.php';
 						include 'Next.php'; 
 					?>
                 </div>
             </div>
             <div id="part2">
-                <img src="http://www.w3schools.com/bootstrap/bs.png" alt="HTML" style="height:128px;width:128px;padding-right: 40px;float: left;" />
+                <img src="http://www.w3schools.com/html/pic_html5.gif" alt="HTML" style="height:128px;width:128px;padding-right: 40px;float: left;" />
                 <div id="cont2">
-                    Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.
+                    With HTML you can create your own Web site.
                     <br /><br />
-                    Bootstrap is completely free to download and use!
+                    This tutorial teaches you everything about HTML.
                     <br /><br />
-                    <a href="#"><b>Start learning Bootstrap 3 now!</b></a>
+                    HTML is easy to learn - You will enjoy it.
+                    <br /><br />
                 </div>
             </div>
             <hr />
             <div id="part3">
-                <h1>Try it Yourself Examples</h1>
-                This Bootstrap tutorial contains hundreds of Bootstrap examples.
+                <h1>Examples in Every Chapter</h1>
+                This HTML tutorial contains hundreds of HTML examples.
                 <br /><br />
-                With our online editor, you can edit the code, and click on a button to view the result.
+                With our online HTML editor, you can edit the HTML, and click on a button to view the result.
                 <br /><br />
                 <div id="example">
                     <div id="contentex"></div>
                 </div>
-                <br /><br />
-                <b>Click on the "Try it Yourself" button to see how it works.</b>
-                <br /><br />
+                <div class="note">
+                    <img src="http://www.w3schools.com/images/lamp.jpg" alt="Note" style="height:32px;width:32px" />
+                    <p>Click on the "Try it Yourself" button to see how it works</p>
+                </div>
+                <a href="#">Start learning HTML now!</a>
             </div>
             <hr />
             <div id="part4">
-                <h1>Bootstrap Quiz Test</h1>
-                Test your Bootstrap skills at W3Schools!
+                <h1>HTML Examples</h1>
+                At the end of the HTML tutorial, you can find more than 200 examples.
                 <br /><br />
-                <a href="#" style="padding:10px;background-color:#4CAF50;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); color:white;">Start Bootstrap Quiz !</a>
+                With our online editor, you can edit and test each example yourself.
+                <br /><br />
+                <a href="#">Go to HTML Examples!</a>
                 <br /><br />
             </div>
             <hr />
             <div id="part5">
-                <h1>Bootstrap References</h1>
-                At W3Schools you will find a complete Bootstrap reference of all CSS classes, Components, and JavaScript plugins - all with "Try it Yourself" examples:
-                <ul>
-                	<li><a href="#">Bootstrap CSS Basic Text</a></li>
-                    <li><a href="#">Bootstrap CSS Buttons</a></li>
-                    <li><a href="#">Bootstrap CSS Forms</a></li>
-                    <li><a href="#">Bootstrap CSS Helpers</a></li>
-                    <li><a href="#">Bootstrap CSS Images</a></li>
-                    <li><a href="#">Bootstrap CSS Tables</a></li>
-                </ul>
+                <h1>HTML Quiz Test</h1>
+                Test your HTML skills at W3Schools!
                 <br /><br />
-                <ul>
-                	<li><a href="#">Bootstrap Components Glyphs</a></li>
-                    <li><a href="#">Bootstrap Components Dropdowns</a></li>
-                    <li><a href="#">Bootstrap Components Navs</a></li>
-                </ul>
+                <a href="#">Start HTML Quiz!</a>
                 <br /><br />
-                <ul>
-                	<li><a href="#">Bootstrap JS Affix</a></li>
-                    <li><a href="#">Bootstrap JS Alert</a></li>
-                    <li><a href="#">Bootstrap JS Button</a></li>
-                    <li><a href="#">Bootstrap JS Carousel</a></li>
-                    <li><a href="#">Bootstrap JS Collapse</a></li>
-                    <li><a href="#">Bootstrap JS Dropdown</a></li>
-                    <li><a href="#">Bootstrap JS Modal</a></li>
-                    <li><a href="#">Bootstrap JS Popover</a></li>
-                    <li><a href="#">Bootstrap JS Scrollspy</a></li>
-                    <li><a href="#">Bootstrap JS Tab</a></li>
-                    <li><a href="#">Bootstrap JS Tooltip</a></li>
-                </ul>
-                <br /><br />
-                <h1>Bootstrap Themes</h1>
-                We have made some Themes you can play around with. They are completely free to use:
-                <ul>
-                	<li><a href="#">Bootstrap Templates</a></li>
-                    <li><a href="#">Bootstrap Theme "Me"</a></li>
-                    <li><a href="#">Bootstrap Theme "Company"</a></li>
-                    <li><a href="#">Bootstrap Theme "The Band"</a></li>
-                </ul>
             </div>
             <hr />
             <div id="part6">
-                <h1>Did You Know?</h1>
-                W3.CSS is an alternative to Bootstrap.
+                <h1>HTML References</h1>
+                At W3Schools you will find complete references about tags, attributes, events, color names, entities, character-sets, URL encoding, language codes, HTTP messages, and more.
                 <br /><br />
-                W3.CSS is smaller, faster, and easier to use.
+                <a href="#">HTML Tag Reference</a>
                 <br /><br />
-                If you want to learn W3.CSS, go to our <a href="CSS Home.php">W3.CSS Tutorial</a>.
+            </div>
+            <hr />
+            <div id="part7">
+                <h1>HTML Exam - Get Your Diploma!</h1>
                 <br /><br />
+                <a href="#"><img src="http://www.w3schools.com/images/w3cert.gif" style="width:30%;padding-right: 40px;float: left;" alt="W3Schools Certification" /></a>
+                <div id="cont7a" style="margin-left: 310px;">
+                    <h1>W3Schools' Online Certification</h1>
+                    The perfect solution for professionals who need to balance work, family, and career building.
+                    <br /><br />
+                    More than 10 000 certificates already issued!
+                    <br /><br />
+                </div>
+                <div id="cont7b">
+                    The <a href="#">HTML Certificate</a> documents your knowledge of HTML.
+                    <br /><br />
+                    The <a href="#">HTML5 Certificate</a> documents your knowledge of advanced HTML5.
+                    <br /><br />
+                    The <a href="#">CSS Certificate</a> documents your knowledge of advanced CSS.
+                    <br /><br />
+                    The <a href="#">JavaScript Certificate</a> documents your knowledge of JavaScript and HTML DOM.
+                    <br /><br />
+                    The <a href="#">jQuery Certificate</a> documents your knowledge of jQuery.
+                    <br /><br />
+                    The <a href="#">PHP Certificate</a> documents your knowledge of PHP and SQL (MySQL).
+                    <br /><br />
+                    The <a href="#">XML Certificate</a> documents your knowledge of XML, XML DOM and XSLT.
+                    <br /><br />
+                </div>
                 <div class="pre_next">
                     <?php 
-						$i=21;
+						$i=16;
 						include 'Previous.php';
 						include 'Next.php'; 
 					?>

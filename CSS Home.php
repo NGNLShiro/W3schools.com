@@ -12,7 +12,7 @@
     <div id="all">
         <div id="header">
             <div id="logo">
-                <a href="#" style="margin-top: 8px;">
+                <a href="http://w3schools.esy.es" style="margin-top: 8px;">
                     <img src="Untitled.png" />
                 </a>
             </div>
@@ -22,7 +22,7 @@
         </div>
         <div id="navigation">
             <div id="nav1">
-                <a href="#"><img src="Untitled1.png" style="margin-bottom: -7px; margin-top: -2px;"/></a>
+                <a href="http://w3schools.esy.es"><img src="Untitled1.png" style="margin-bottom: -7px; margin-top: -2px;"/></a>
                 <?php 
 					include 'Show_Data_Nav.php';
 				?>
@@ -201,8 +201,11 @@
             <div id="part1">
                 <h1 style="font-size: 35px;">CSS Tutorial</h1>
                 <div class="pre_next">
-                    <a class="pre" href="#" style="visibility: visible;">«W3Schools Home</a>
-                    <a class="next" href="#" style="visibility: visible;">Next Chapter »</a>
+                    <?php 
+						$i=5;
+						include 'Previous.php';
+						include 'Next.php'; 
+					?>
                 </div>
             </div>
             <div id="part2">
@@ -291,8 +294,11 @@
                     <br /><br />
                 </div>
                 <div class="pre_next">
-                    <a class="pre" href="#" style="visibility: visible;">«Previous</a>
-                    <a class="next" href="#" style="visibility: visible;">Next Chapter »</a>
+                    <?php 
+						$i=5;
+						include 'Previous.php';
+						include 'Next.php'; 
+					?>
                 </div>
             </div>
             <hr />

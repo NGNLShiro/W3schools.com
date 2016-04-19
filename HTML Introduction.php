@@ -11,7 +11,7 @@
     <div id="all">
         <div id="header">
             <div id="logo">
-                <a href="#" style="margin-top: 8px;">
+                <a href="http://w3schools.esy.es" style="margin-top: 8px;">
                     <img src="Untitled.png" />
                 </a>
             </div>
@@ -21,7 +21,7 @@
         </div>
         <div id="navigation">
             <div id="nav1">
-                <a href="#"><img src="Untitled1.png" style="margin-bottom: -7px; margin-top: -2px;"/></a>
+                <a href="http://w3schools.esy.es"><img src="Untitled1.png" style="margin-bottom: -7px; margin-top: -2px;"/></a>
                 <?php 
 					include 'Show_Data_Nav.php';
 				?>
@@ -189,15 +189,21 @@
         </div>
         <div id="menu">
             <ul>
-                <?php include 'Show_Data.php'; ?>
+                <?php 
+					$x=1;
+					include 'Show_Data.php'; 
+				?>
             </ul>
         </div>
         <div id="content">
             <div id="part1">
                 <h1>HTML Introduction</h1>
                 <div class="pre_next">
-                    <a class="pre" href="#" style="visibility: visible;">«Previous</a>
-                    <a class="next" href="#" style="visibility: visible;">Next Chapter »</a>
+                    <?php 
+						$i=2;
+						include 'Previous.php';
+						include 'Next.php'; 
+					?>
                 </div>
             </div>
             <hr />
@@ -300,8 +306,11 @@
                     <div id="contentex"></div>
                 </div>
                 <div class="pre_next">
-                    <a class="pre" href="#" style="visibility: visible;">«Previous</a>
-                    <a class="next" href="#" style="visibility: visible;">Next Chapter »</a>
+                    <?php 
+						$i=2;
+						include 'Previous.php';
+						include 'Next.php'; 
+					?>
                 </div>
             </div>
             <hr />
